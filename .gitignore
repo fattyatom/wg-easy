@@ -1,3 +1,5 @@
 /config
 /wg0.conf
 /wg0.json
+/wg*.conf
+/wg*.json
