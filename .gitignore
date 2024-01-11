@@ -3,3 +3,5 @@
 /wg0.json
 /wg*.conf
 /wg*.json
+.DS_Store
+.casey
