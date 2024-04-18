@@ -24,6 +24,7 @@ const {
   WG_PRE_DOWN,
   WG_POST_DOWN,
   WG_INTERFACE,
+  WG_SERVER_MTU,
 } = require('../config');
 
 module.exports = class WireGuard {
