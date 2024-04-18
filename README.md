@@ -6,6 +6,13 @@
 [![Sponsor](https://img.shields.io/github/sponsors/weejewel)](https://github.com/sponsors/WeeJeWel)
 ![GitHub Stars](https://img.shields.io/github/stars/wg-easy/wg-easy)
 
+---
+### Forked from github.com/wg-easy/wg-easy
+
+This fork adds the environment variable WG_INTERFACE on top of the existing image to enable functionality of hosting multiple instances on the same Docker host by using a different interface.
+
+---
+
 You have found the easiest way to install & manage WireGuard on any Linux host!
 
 <p align="center">
@@ -104,6 +111,7 @@ These options can be configured by setting environment variables using `-e KEY="
 | `WG_POST_DOWN` | `...` | `iptables ...` | See [config.js](https://github.com/wg-easy/wg-easy/blob/master/src/config.js#L28) for the default value. |
 | `LANG` | `en` | `de` | Web UI language (Supports: en, ua, ru, tr, no, pl, fr, de, ca, es, ko, vi, nl, is, pt, chs, cht, it, th, hi). |
 | `UI_TRAFFIC_STATS` | `false` | `true` | Enable detailed RX / TX client stats in Web UI |
+| `WG_INTERFACE` | `wg0` | `wg1` | Wireguard Interface that the server uses. Use wg1 or above to host multiple instances of this container. |
 
 > If you change `WG_PORT`, make sure to also change the exposed port.
 

@@ -4,3 +4,6 @@
 /src/node_modules
 .DS_Store
 *.swp
+/wg*.conf
+/wg*.json
+.casey
