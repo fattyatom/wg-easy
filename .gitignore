@@ -7,3 +7,4 @@
 /wg*.conf
 /wg*.json
 .casey
+*.swp

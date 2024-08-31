@@ -20,12 +20,9 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: 'lts/*'
           check-latest: true
           cache: 'npm'
-          cache-dependency-path: |
-            package-lock.json
-            src/package-lock.json
 
       - name: Bot 🤖 "Updating NPM Packages..."
         run: |
